@@ -33,7 +33,7 @@ export function OtpForm({ className, ...props }: OtpFormProps) {
     defaultValues: { otp: "" },
   });
 
-  function onSubmit(data: z.infer<typeof formSchema>) {
+  function onSubmit(_: z.infer<typeof formSchema>) {
     setIsLoading(true);
     /*  toast({
       title: 'You submitted the following values:',

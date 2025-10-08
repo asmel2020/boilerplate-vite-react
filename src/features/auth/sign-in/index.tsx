@@ -1,5 +1,5 @@
 import { Navigate } from "@tanstack/react-router";
-import ViteLogo from "@/assets/vite.svg";
+import ViteLogo from "/vite.svg";
 
 import { UserAuthForm } from "./components/user-auth-form";
 import { useAuthStore } from "@/store/authStore";

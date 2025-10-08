@@ -1,4 +1,4 @@
-import { appApi } from "../api/pulseStreamApi";
+import { appApi } from "../api/appApi";
 
 export interface AuthResponse {
   id: string;
